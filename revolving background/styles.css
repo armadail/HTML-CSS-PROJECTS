@@ -1,0 +1,26 @@
+main {
+	background-color: 	#63502a;
+
+}
+body {
+	margin: 0px;
+	padding: 0px;
+}
+.background {
+	position: relative;
+	background:  url(images/background2.jpg);
+	height: 100vh;
+	background-size: cover;
+	/*contain - fit horizontall cover - fit vertically->*/
+	background-position: 0 0;
+	background-repeat: repeat-x;
+	animation: animate 5s linear infinite;
+}
+@keyframes animate {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: 100% 0;
+	}
+}
